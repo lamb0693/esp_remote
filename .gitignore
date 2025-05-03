@@ -1,0 +1,30 @@
+# 빌드 아티팩트
+/.pio
+/.pioenvs
+/.piolibdep
+/.platformio
+*.pio
+*.bin
+*.elf
+*.eeprom
+
+# 환경 설정 파일
+platformio.ini
+
+# 빌드 아티팩트에서 생성된 디렉토리 및 파일
+.vscode/
+
+# IDE 관련 설정
+.vscode/*
+.idea/
+
+# 라이브러리 캐시
+lib_deps/
+lib/
+
+# MacOS 관련
+.DS_Store
+
+# Windows 관련
+Thumbs.db
+
